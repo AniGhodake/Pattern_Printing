@@ -1,0 +1,17 @@
+	for(int row=0; row<n; row=row+1) {
+		for(int col=0;col<n-row; col=col+1) {
+			if(row ==0 || row == n-1) {
+				cout << "*";	
+			}
+			else {
+				if(col ==0 || col == n-row - 1) {
+					cout <<"*";                       // inverted hollow half pyramid
+				}
+				else {
+					cout << " ";
+				}
+			}
+				
+		}
+		cout << endl;
+	}
