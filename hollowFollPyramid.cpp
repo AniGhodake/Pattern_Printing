@@ -14,7 +14,7 @@ int main() {
 		for(int col=0; col<row+1; col=col+1) {
 			//print star for first and last col
 			if(col ==0 || col == row + 1 - 1 ) {
-				cout << "* ";                                 // HOLLOW FULL PYRAMID
+				cout << "* ";                                     // HOLLOW FULL PYRAMID
 			}
 			else {
 				//for every col between first and last
