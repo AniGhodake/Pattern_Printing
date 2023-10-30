@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 int main() {
 	int n;
 	cin >> n;
@@ -11,7 +10,7 @@ int main() {
 			}
 			else {
 				if(col ==0 || col == n-row - 1) {
-					cout <<"*";                           // inverted hollow half pyramid
+					cout <<"*";                       // inverted hollow half pyramid
 				}
 				else {
 					cout << " ";
@@ -19,6 +18,6 @@ int main() {
 			}
 				
 		}
-		cout << endl;    // after each row we need to go on next line(row)
+		cout << endl;    // after each row we need to go on next line(next row)
 	}
 }
