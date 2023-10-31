@@ -16,8 +16,6 @@
 		cout << endl;
 	}
     
-    
-    
     for(int row=0;row<n; row=row+1) {
 		//inverted pyramid 1
 		for(int col=0; col<row+1; col=col+1) {
