@@ -95,27 +95,27 @@ int main() {
 
 	// cout << sizeof(num) << endl;
 
-	// //character -> 1byte
-	// char ch = 'k';
-	// cout << ch << endl;
-	// cout << sizeof(ch) << endl;
+	//character -> 1byte
+	char ch = 'k';
+	cout << ch << endl;
+	cout << sizeof(ch) << endl;
 
-	// //float -> 4 byte
-	// float point = 1.69;
-	// cout << point << endl;
-	// cout << sizeof(point) << endl;
+	//float -> 4 byte
+	float point = 1.69;
+	cout << point << endl;
+	cout << sizeof(point) << endl;
 
-	// //long -> 4 byte
-	// long number = 23;
-	// cout << number << endl;
-	// cout << sizeof(number) << endl;
+	//long -> 4 byte
+	long number = 23;
+	cout << number << endl;
+	cout << sizeof(number) << endl;
 	
-	// cout << "Love " << endl << "babbar" << '\n';
-	// cout << "Love Babbar" << endl ;
-	// cout << endl;
-	// cout << endl;
-	// cout << '\n';
-	// cout << "Lovely Babbar" ;
+	cout << "Love " << endl << "babbar" << '\n';
+	cout << "Love Babbar" << endl ;
+	cout << endl;
+	cout << endl;
+	cout << '\n';
+	cout << "Lovely Babbar" ;
 
 	//find in homework
 	return 0;
