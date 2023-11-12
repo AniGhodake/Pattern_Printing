@@ -36,11 +36,11 @@
 	// 	//inverted pyramid 1
 	// 	for(int col=0; col<row+1; col=col+1) {
 	// 		cout << "* ";
-	// 	}
-	// 	//full pyramid 1
-	// 	for(int col=0;col<2*n-2*row-1; col=col+1) {
-	// 		cout << "  ";                                       // fancy pattern part 2
-	// 	}                                                      // diamond of spaces surrounded by stars
+		}
+		//full pyramid 1
+		for(int col=0;col<2*n-2*row-1; col=col+1) {
+			cout << "  ";                                       // fancy pattern part 2
+		}                                                      // diamond of spaces surrounded by stars
 
 		//inverted pyramid 2
 		for(int col=0; col<row+1; col=col+1) {
